@@ -11,7 +11,7 @@ def home():
     # img.save(r"C:\Users\Administrator\Desktop\day6\qrcode_tool_online\static/qr.png")
     
     # #第三步，在页面上显示二维码图片sas
-    # return '<img src="/static/qr.png"/>'
+    # return '<img src="/static/qr.png"/>' 
     return flask.render_template('qr_tool.html')
 
 @app.route("/qr")
